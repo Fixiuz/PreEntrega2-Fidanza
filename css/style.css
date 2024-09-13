@@ -10,12 +10,7 @@
     image-resolution: 100%;
     max-width: 150px;
     height: auto;
-    
-
 }
-
-
-
 
 
 /* ------------------------------------------------------------------------Estilos del menú  ------------------------------------------------------------------------ */
@@ -47,7 +42,7 @@
 }
 
 
-
+/* -------------------------------------------------------------------Media querie menú----------------------- */
 @media (max-width: 991.98px) {
     
     .navbar-toggler {
@@ -57,48 +52,6 @@
     }
 }
 
-/* header nav {
-    background-image: url(../img/Logos/2.webp);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    color: whitesmoke;
-    text-align: right;
-    padding: 10px;
-    height: 400px;
-    width: 100%; 
-    background-color: #434143;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-   
-}
-
-nav a:hover{
-    background-color: #006cc4;
-
-}
-nav a:active{
-    background-color: whitesmoke;
-    color:#006cc4 ;
-
-}
-
-
-header nav ul li {
-    list-style: none;
-    display: inline-block;
-    border-radius: 5px;
-    
-    margin-left: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-
-}
-header nav ul li a {
-    color: whitesmoke;
-    text-decoration: none;
-} */
 /* ------------------------------------------------------------------------Estilos del H1 principal  ------------------------------------------------------------------------ */
 h1 {
     text-align: center;
@@ -135,7 +88,6 @@ main{
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;  
 }
-/* ------------------------------------------------------------------------Estilos del   ------------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------------Estilos del H2 del TEXTO1  ------------------------------------------------------------------------ */
 .texto1 h2 {
@@ -192,6 +144,8 @@ main{
     font-family: 'Montserrat', sans-serif; 
     
 }
+/* ------------------------------------------------------------------------Estilos del H2 del TEXTO3   ------------------------------------------------------------------------ */
+
 .texto3 h2 {
     font-size: 2em;
     color: #4d4d4d;
@@ -233,7 +187,7 @@ main{
 
 
 
-
+/*--------------------------------------------------------------------------Estilo separador index-------------------------------------------- */
 .separador{
     background-image: url(../img/pentesting.webp) ;
     width: 100%;
@@ -264,7 +218,7 @@ main{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif; 
 }
-/* -------------------------------------------------------- ESTILOS PARA EL formularioDeContacto---------------------------------- */
+/* -------------------------------------------------------- ESTILOS PARA EL formularioDeContacto------------------------------------------------------------------------------ */
 
 
 .form {
@@ -417,7 +371,7 @@ footer a:active{
 /*--------------------------------------------------------------------------- estilos de mobile para html de servicios---------------------------------------------------------------------- */
 /*--------------------------------------------------------------------------- estilos de mobile para html de servicios---------------------------------------------------------------------- */
 
-
+/*-------------------------------------------------------------------------- estilos del contenedor de servicios-------------------------------------------- */
 .contenedorServicios {
     height: 660vh;
     background-color: #f7f9fc;
@@ -478,7 +432,7 @@ footer a:active{
 
 
 
-/* Media queries ---------------------------------- estilos de desktop para html servicios */
+/*--------------------------------------------Media queries ----------------------- estilos de desktop para html servicios---------------------------------------------------------- */
 @media screen and (min-width: 1024px) {
     .contenedorServicios {
         background-color: #f7f9fc;
@@ -584,11 +538,10 @@ footer a:active{
     text-align: center;
 }
 
-
-
 .tituloMiembro{
     display: none;
 }
+/* ---------------------------------------------------------Media queries-------------------------------Estilos de desktop para html equipo */
 @media screen and (min-width: 1024px) {
     .miembro {
         background-color: #f7f9fc;
