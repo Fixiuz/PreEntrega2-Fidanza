@@ -1,0 +1,623 @@
+/* ------------------------------------------------------------------------Reset------------------------------------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------Estilos del logo ------------------------------------------------------------------------- */
+.logo{
+    image-resolution: 100%;
+    max-width: 150px;
+    height: auto;
+    
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------Estilos del menú  ------------------------------------------------------------------------ */
+
+.navbar {
+    background-image: url('../img/Logos/2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.navbar-nav .nav-link {
+    color: whitesmoke ; 
+    text-transform: uppercase; 
+}
+.navbar-nav {
+    
+    margin-left: auto; 
+    font-weight: bold; 
+    font-family: 'Roboto', sans-serif; 
+    
+}
+.navbar-nav a:hover{
+    background-color: #203959;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #203959 ; 
+}
+
+
+
+@media (max-width: 991.98px) {
+    
+    .navbar-toggler {
+        position: absolute;
+        left: 20px; 
+        top: 15px; 
+    }
+}
+
+/* header nav {
+    background-image: url(../img/Logos/2.webp);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: whitesmoke;
+    text-align: right;
+    padding: 10px;
+    height: 400px;
+    width: 100%; 
+    background-color: #434143;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+}
+
+nav a:hover{
+    background-color: #006cc4;
+
+}
+nav a:active{
+    background-color: whitesmoke;
+    color:#006cc4 ;
+
+}
+
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+    
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+header nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+} */
+/* ------------------------------------------------------------------------Estilos del H1 principal  ------------------------------------------------------------------------ */
+h1 {
+    text-align: center;
+    background-color: #203959; 
+    color: #F1E4E3; 
+    border-radius: 5px;
+    border: 5px solid #006cc4; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+/* ------------------------------------------------------------------------Estilos del main  ------------------------------------------------------------------------ */
+main{
+    background-color: #f7f9fc;
+    height: auto; 
+}
+
+/* ------------------------------------------------------------------------Estilos de la class TEXTO1 ------------------------------------------------------------------------ */
+.texto1 {
+    background-color: #f7f7f7; 
+    color: #4d4d4d; 
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.6; 
+    padding: 40px 20px; 
+    margin: 20px auto; 
+    max-width: 800px;
+    border-radius: 10px; 
+}
+/* ------------------------------------------------------------------------Estilos del <p> del TEXTO1  ------------------------------------------------------------------------ */
+.texto1 p {
+    font-size: 1.1em; 
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;  
+}
+/* ------------------------------------------------------------------------Estilos del   ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------Estilos del H2 del TEXTO1  ------------------------------------------------------------------------ */
+.texto1 h2 {
+    font-size: 2em;
+    color: #203959;
+    text-align: center;
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #e0e0e0; 
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;  
+}
+/* ------------------------------------------------------------------------Estilos del H3 del TEXTO1  ------------------------------------------------------------------------ */
+.texto1 h3 {
+    font-size: 1em;
+    color: #203959;
+    margin-bottom: 20px; 
+    background-color: #F7F7F7;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+/* ------------------------------------------------------------------------Estilos del TEXTO2  ------------------------------------------------------------------------ */
+.texto2 {
+    background-color: #f7f7f7;
+    color: #4d4d4d; 
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.6; 
+    
+     
+    max-width: 800px;
+    border-radius: 10px; 
+    text-align: center;
+}
+/* ------------------------------------------------------------------------Estilos del H2 del TEXTO2   ------------------------------------------------------------------------ */
+.texto2 h2 {
+    font-size: 2em; 
+    color: #203959;
+    margin-bottom: 20px; 
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-left: 190px;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+/* ------------------------------------------------------------------------Estilos del H3 del TEXTO2   ------------------------------------------------------------------------ */
+
+.texto2 h3 {
+    font-size: 1em; 
+    color: #203959;
+    margin-bottom: 20px; 
+    background-color: #f7f7f7;
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+.texto3 h2 {
+    font-size: 2em;
+    color: #4d4d4d;
+    text-align: center; 
+    border-bottom: 2px solid #e0e0e0; 
+    font-family: 'Montserrat', sans-serif;  
+}
+/* ------------------------------------------------------------------------Estilos de la class LISTA  ------------------------------------------------------------------------ */
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto auto;
+    gap: 1rem; 
+    justify-content: center;
+    align-items: start; 
+    
+
+}
+/* ------------------------------------------------------------------------Estilos del H2 Del grid Lista ------------------------------------------------------------------------ */
+
+.lista h2{
+    color: #203959;
+    text-align: center;
+    margin-bottom: 0.313rem ;
+
+
+}
+/* ------------------------------------------------------------------------Estilos de la class CAJA   ------------------------------------------------------------------------ */
+.caja {
+    color: #203959;
+    background-color: #fbfdff;
+    padding: 20px;
+    border-radius: 10px;
+    
+    text-align: center;
+    height: auto;
+}
+
+
+
+
+.separador{
+    background-image: url(../img/pentesting.webp) ;
+    width: 100%;
+    height: 100vh;
+    grid-column: 1 / span 3;
+    padding: 2rem;
+    
+}
+.separador img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+/* ------------------------------------------------------------------------Estilos de la IMG de la class Lista  ------------------------------------------------------------------------ */
+.caja img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+/* ------------------------------------------------------------------------Estilos del texto del grid del index  ------------------------------------------------------------------------ */
+
+.caja p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif; 
+}
+/* -------------------------------------------------------- ESTILOS PARA EL formularioDeContacto---------------------------------- */
+
+
+.form {
+    display: flex;
+    background-color: #f2f4f8; 
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left;
+    font-family: 'Montserrat', sans-serif; 
+    justify-content: space-between; 
+}
+
+
+.form fieldset {
+    flex: 1;
+    margin-right: 20px; 
+    border: none;
+}
+form.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #203959; 
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #00c2fd; 
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; 
+    background-color: #fff; 
+    color: #333; 
+    
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border-color: #203959; 
+    outline: none; 
+}
+
+.form input[type="submit"],
+.form input[type="reset"] {
+    background-color: #203959; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; 
+}
+
+.form input[type="submit"]:hover,
+.form input[type="reset"]:hover {
+    background-color: #006cc4; 
+}
+
+.form input[type="submit"]:active,
+.form input[type="reset"]:active {
+    background-color: grey; 
+}
+
+.form textarea {
+    height: 100px; 
+    resize: vertical; 
+}
+/* ------------------------------------------------------ estilos para el mapa -------------------------------------------------------------------------- */
+.mapa {
+    width: 200px; 
+    height: 300px; 
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between; 
+}
+/* ------------------------------------------------------ estilos para portfolio------------------------------------------------------------------------------------------------- */
+
+.exp {
+    display: flex; 
+    align-items: center;
+    background-color: #fcf7fa; 
+    margin-bottom: 20px; 
+    color: #203959;
+    font-family: 'Montserrat', sans-serif; 
+}
+.exp h2{
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;  
+    color: #4d4d4d;
+    margin-bottom: 20px; 
+    background-color: #f7f7f7;
+    text-align: left;
+    margin-left: 190px;
+    
+}
+.exp img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 312px; 
+}
+/*------------------------------------------------------- estilos para el footer-------------------------------------------------------------- */
+footer {
+    background-color: #203959; 
+    color: whitesmoke;
+    margin-top: 20px;
+    border-top: solid 2px #006cc4; 
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    height: auto; 
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #203959;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+ 
+}
+footer a:hover{
+    background-color: #006cc4;
+}
+footer a:active{
+    background-color: grey;
+}
+/*--------------------------------------------------------------------------- estilos de mobile para html de servicios---------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------- estilos de mobile para html de servicios---------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------- estilos de mobile para html de servicios---------------------------------------------------------------------- */
+
+
+.contenedorServicios {
+    height: 660vh;
+    background-color: #f7f9fc;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    row-gap: 1rem;
+}
+
+.contenedorServicios img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    
+}
+/* ------------------------------------------------------------------------Estilos del H2 del TextoServicio  ------------------------------------------------------------------------ */
+.textoServicio h2 {
+    font-size: 3em;
+    color: #203959;
+    text-align: center;
+    margin-bottom: 5px; 
+    border-bottom: 2px solid #e0e0e0; 
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+/* ------------------------------------------------------------------------Estilos del H3 del TextoServicio------------------------------------------------------------------------ */
+.textoServicio h3 {
+    display: none;
+    font-size: 2em;
+    color: #203959;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: #f7f9fc;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.tituloServicio h3 {
+    font-size: 2em;
+    color: #203959;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: #f7f9fc;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+/* ------------------------------------------------------------------------Estilos del <p> del TextoServicio  ------------------------------------------------------------------------ */
+.textoServicio p {
+    font-size: 1.1em; 
+    margin: 20px 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #203959;
+      
+}
+
+
+
+/* Media queries ---------------------------------- estilos de desktop para html servicios */
+@media screen and (min-width: 1024px) {
+    .contenedorServicios {
+        background-color: #f7f9fc;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; 
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .servicioUno, .servicioDos, .servicioTres, .servicioCuatro, .servicioCinco, .servicioSeis {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem; 
+        align-items: right;
+        width: 100%;
+    }
+
+    .tituloServicio {
+        display: none; 
+    }
+
+    .textoServicio {
+        width: 100%; 
+        text-align: left;
+    }
+      .textoServicio h3 {
+        display: block; 
+        font-size: 2.5em;
+        color: #203959;
+        margin-bottom: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .textoServicio h2 {
+        width: 100%; 
+        text-align: center;
+        margin-top: 15px;
+       
+        font-size: 3em; 
+    }
+
+    .textoServicio p {
+        margin-left: 0;
+        text-align: center;
+        padding: 5px;
+        margin-right: 70px;
+        margin-bottom: 50px;
+    }
+    .contenedorServicios img {
+        width:40%; 
+        height: 50%;
+        object-fit: contain;
+        justify-content: left;
+        margin-left: 20px;
+    }
+}
+
+/*--------------------------------------------------------------------------- estilos de mobile para html de equipo---------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------- estilos de mobile para html de equipo---------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------- estilos de mobile para html de equipo---------------------------------------------------------------------- */
+
+.miembro {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f9fc; 
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;  
+    
+    
+}
+.miembro img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain;
+    margin-right: 0.625rem;
+    margin-left: 3.125rem; 
+    margin-top: 10rem;
+}
+.textoMiembro h2 {
+    font-size: 2em;
+    color: #203959;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #e0e0e0; 
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;  
+}
+.textoMiembro {
+    background-color: #f7f9fc;
+    color: #4d4d4d; 
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.6; 
+    
+     
+    max-width: 800px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+
+
+.tituloMiembro{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .miembro {
+        background-color: #f7f9fc;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .textoMiembro {
+        width: 100%;
+        max-width: none; 
+        text-align: center;
+        background-color: #f7f9fc;
+    }
+
+    .textoMiembro h2 {
+        
+        background-color: #f7f9fc; 
+        text-align: center;
+        width: 100%; 
+        max-width: 100%; 
+    }
+    .miembro img {
+        width: 60.5rem; 
+        height: auto; 
+        object-fit: contain;
+        margin-right: 0.625rem;
+        margin-left: 3.125rem; 
+        margin-top: 10rem;
+    }
+}
